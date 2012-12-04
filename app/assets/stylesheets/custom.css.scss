@@ -1,0 +1,29 @@
+@import "bootstrap";
+.navbar{
+ .navbar-inner{
+  background:#eee;
+  border-bottom:solid 1px #ccc;
+  .nav{
+   margin-left:20px;
+   li{
+    a{
+     padding:5px;
+     margin:5px 5px 0 0;
+     @include border-radius(5px);
+     &:hover{
+      background:#000;
+     };
+    }
+   }
+  }
+  .brand{
+   text-indent:-999px;
+   width:169px;
+   height:26px;
+   padding:0;
+   margin:5px 0 0 0;
+   background:url(http://cdn1.1stwebdesigner.com/wp-content/themes/1stwd/img/1wd-logo-rd.png)
+   no-repeat center center;
+  }
+ }
+}
